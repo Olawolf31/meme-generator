@@ -3,11 +3,110 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  background-color: #672280;
+}
+
+section {
+  padding: 20px;
+}
+
+.top {
+  display: flex;
+  color: #fff;
+  margin-right: auto
+}
+
+.header-title {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: auto;
+  font-weight: 700;
+}
+
+.header-title2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  align-self: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.form-input {
+  padding: 10px;
+  border: 1px solid #D5D4D8;
+  border-radius: 9px;
+  width: 100%;
+}
+
+.submit {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #711F8D;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 9px;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme-image {
+  max-width: 100%;
+  margin: 25px auto;
+  display: block;
+}
+
+.meme-type {
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+margin: 10px auto;
+left: 50%;
+}
+
+.bottom {
+bottom: 10%;
+left: 50%;
 }
